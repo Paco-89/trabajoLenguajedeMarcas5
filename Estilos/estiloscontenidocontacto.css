@@ -1,0 +1,166 @@
+@font-face {
+    font-family: Anton;
+    src: url(../Fuentes/Anton-Regular.ttf) format('truetype');
+}
+
+
+
+#tituloenvios{
+    height: 20px;
+    display:flex;
+    justify-content: center;
+    background-color: black;
+    align-items: center;
+    
+    padding:5px;
+    width:100%;
+    
+    
+}
+header h1 a{
+    font-size: 15px;
+    text-decoration: none;
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    color: #A6A2A2; 
+    font-family: Anton;
+}
+#tablarrss img{
+    width: 50px;
+    height:50px;
+}
+
+
+#contenedorlogo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+header img{
+    height: 180px;
+    width:180px;
+    border-radius : 30px;
+    
+}
+
+#navegador{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height:25px;
+    width:100%;
+    padding:5px;
+    font-family: Anton;
+    
+    
+}
+#navegador ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding:0 10px;
+}
+
+#navegador li{
+    justify-content: space-between;
+    flex: shrink 0;
+    margin:0 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color:#A6A2A2;
+}
+
+#navegador li a:hover {
+    background-color: white;
+    }
+    
+footer {
+    font-family: Anton;
+    font-size: 6px;
+    color:#dddddd;
+}
+#fondofooter{
+    display:flex;
+    justify-content:space-between;
+    background-color: black;
+    height: 80px; 
+    padding:5px;
+    width:100%;
+}
+
+#tablacategorias{
+    display:flex;
+    justify-content: right;
+}
+
+#tablapoliticas{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#creditos{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width:100%;
+    height: 10px;
+    padding:5px;
+}
+
+table a {
+    color:#dddddd;
+    text-decoration: underline;
+
+}
+
+.flex-center{
+    width: 100%;
+    height: 100%;
+
+    font-family: Anton;
+    text-align: right;
+    
+ 
+    
+}
+
+#creditoscontacto{
+    display:block;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../Multimedia/Fotos/relacionados/atardecercaboGata.jpg);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#creditoscontacto h6{
+    font-size: 25px;
+    margin:0;
+}
+#telefono {
+    width: 25%;
+    
+ 
+}
+#email{
+    width: 50%;
+ 
+    
+}
+#direccion{
+    width: 90%;
+ 
+   
+}
+
+.formulario{
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.2);
+}
